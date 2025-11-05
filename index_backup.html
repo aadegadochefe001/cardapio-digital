@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adega do Chefe - Seja Bem Vindo </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     Navigation 
+    <nav class="nav-menu" id="navMenu">
+        <div class="nav-container">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-XHaExE7dSH0cvqhzTxu5H439zT23Us.png" alt="Adega do Chefe" class="nav-logo">
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#tabacaria" class="nav-link">Tabacaria</a></li>
+                <li><a href="#cervejas" class="nav-link">Cervejas</a></li>
+                <li><a href="#drinks" class="nav-link">Drinks</a></li>
+                <li><a href="#petiscos" class="nav-link">Petiscos</a></li>
+                <li><a href="#sem-alcool" class="nav-link">Sem Álcool</a></li>
+                <li><a href="#sinuca" class="nav-link">Sinuca</a></li>
+            </ul>
+        </div>
+    </nav>
+
+     Hero Section 
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-XHaExE7dSH0cvqhzTxu5H439zT23Us.png" alt="Adega do Chefe" class="hero-logo">
+            <h1 class="hero-title">Seja Bem Vindo</h1>
+            <div class="ornament-divider">
+                <span class="ornament-left">✦</span>
+                <span class="ornament-center">◆</span>
+                <span class="ornament-right">✦</span>
+            </div>
+            <p class="hero-subtitle">Aprecie com moderação</p>
+            <button class="cta-button" onclick="document.getElementById('tabacaria').scrollIntoView({behavior: 'smooth'})">
+                Explorar Cardápio
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <span>↓</span>
+        </div>
+    </section>
+
+     Tabacaria Section 
+    <section id="tabacaria" class="menu-section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="ornament-top">✦</div>
+                <h2 class="section-title">Tabacaria</h2>
+                <div class="ornament-divider">
+                    <span class="line"></span>
+                    <span class="diamond">◆</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            <!-- Narguilé Essências -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🌀 NARGUILÉ - Essências</h3>
+                <p class="category-note">(Todos os sabores disponíveis)</p>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-image-placeholder">
+                            <img src="/placeholder.svg?height=300&width=300" alt="NAY">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-name">NAY</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-image-placeholder">
+                            <img src="/placeholder.svg?height=300&width=300" alt="ZIGGY">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-name">ZIGGY</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">LUCK</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 13,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">ÔNIX</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Atchá</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Narguilé Acessórios -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">Acessórios</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Carvão solto</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 1,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Alumínio</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 0,50</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Caixa Fumax</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 50,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Caixa Artcoco</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 45,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Vaso</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 35,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Mangueira</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 35,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Rosh</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 30,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Abafador</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 25,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Borracha narguilé</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Narguilé Serviços -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">Serviços</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">💨 Sessão de narguilé</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 20,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">♻️ Troca de rosh</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fumo e Acessórios -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🚬 FUMO E ACESSÓRIOS</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Piteira de vidro</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 7,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Piteira (5 unidades)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 1,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Dichavador</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Seda solta</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 0,50</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Seda (pacote)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Cinzeiro</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Gudang</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 35,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Gudang solto</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 2,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Isqueiro</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 3,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="tabacaria">
+                        <div class="item-content">
+                            <h3 class="item-name">Rothmans solto</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 1,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Cervejas Section 
+    <section id="cervejas" class="menu-section dark-section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="ornament-top">✦</div>
+                <h2 class="section-title">Baldes e Cervejas</h2>
+                <div class="ornament-divider">
+                    <span class="line"></span>
+                    <span class="diamond">◆</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            <!-- Baldes -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🍺 BALDES (10 unidades)</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Heineken Long</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 100,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Skol</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 55,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Amstel</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 55,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Original</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 50,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Budweiser Long</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 100,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Budweiser (lata)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 45,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fardos -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">Fardos</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Original</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 55,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Amstel</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 55,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Budweiser</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 32,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Skol</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 45,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unidades -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">Unidades</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Heineken Long</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Coronita Long</h3>
+                            <p class="item-description">Adicional limão +R$ 0,50</p>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 8,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Corona Long</h3>
+                            <p class="item-description">Adicional limão +R$ 0,50</p>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Budweiser Long</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 8,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Budweiser Lata</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 6,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Skol Lata</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Amstel Lata</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Original Lata</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skol Beats -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">Skol Beats</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Vermelha</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Azul</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Caipirinha</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 14,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="cervejas">
+                        <div class="item-content">
+                            <h3 class="item-name">Ice</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     Drinks Section 
+    <section id="drinks" class="menu-section dark-section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="ornament-top">✦</div>
+                <h2 class="section-title">Cardápio de Drinks</h2>
+                <div class="ornament-divider">
+                    <span class="line"></span>
+                    <span class="diamond">◆</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            <!-- Copos Individuais -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🍸 COPOS INDIVIDUAIS</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Gin Eternity (copão 770ml)</h3>
+                            <p class="item-description">Sabores: Melancia • Tropical • Maçã Verde</p>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Gin Eternity (menor)</h3>
+                            <p class="item-description">Sabores: Melancia • Tropical • Maçã Verde</p>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Gin Full</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Jack Daniels</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 45,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Red Label</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 35,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Ballantines</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 30,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Cavalo Branco</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 25,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Ciroc</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 45,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Chanceler</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Copo do Chefe</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Draft</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 20,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Vinho</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Combos -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">Combos</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Jack Daniels</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 250,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Red Label</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 200,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Ballantines</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 170,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Cavalo Branco</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 170,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Ciroc</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 270,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Chanceler</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 65,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Eternity</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 60,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Jack Maçã Verde</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 260,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Garrafas -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">Garrafas</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Jack Daniels</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 190,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Jack Maçã Verde</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 200,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Red Label</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 130,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Ballantines</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 100,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Ciroc</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 180,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Cavalo Branco</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 90,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Eternity</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 30,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Full</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Vinho</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 25,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Draft</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Cantinho</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Caipirinhas -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🍹 CAIPIRINHAS</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Vodka ou Velho Barreiro</h3>
+                            <p class="item-description">Sabores: Morango • Maracujá • Limão • Abacaxi</p>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 20,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shots -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🔥 SHOTS</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Canelinha</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="drinks">
+                        <div class="item-content">
+                            <h3 class="item-name">Tequila com limão e sal</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 7,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="drinks-gallery">
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=400" alt="Whisky">
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=400" alt="Gin Tônica">
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=400" alt="Caipirinha">
+                </div>
+                <div class="gallery-item">
+                    <img src="/placeholder.svg?height=400&width=400" alt="Mojito">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Petiscos Section 
+    <section id="petiscos" class="menu-section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="ornament-top">✦</div>
+                <h2 class="section-title">Petiscos e Comidas</h2>
+                <div class="ornament-divider">
+                    <span class="line"></span>
+                    <span class="diamond">◆</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            <!-- Petiscos / Tira Gosto -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🍢 PETISCOS / TIRA GOSTO</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="petiscos">
+                        <div class="item-content">
+                            <h3 class="item-name">Porção de salame, azeitonas e queijo mussarela</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 25,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="petiscos">
+                        <div class="item-content">
+                            <h3 class="item-name">Porção de salame</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="petiscos">
+                        <div class="item-content">
+                            <h3 class="item-name">Amendoim japonês</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Sem Álcool Section 
+    <section id="sem-alcool" class="menu-section dark-section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="ornament-top">✦</div>
+                <h2 class="section-title">Sem Álcool</h2>
+                <div class="ornament-divider">
+                    <span class="line"></span>
+                    <span class="diamond">◆</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            <!-- Energéticos -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">⚡ ENERGÉTICOS</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Vibe</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Jack</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 10,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Bally</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Red Bull Tradicional (250ml)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Red Bull Melancia (250ml)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Red Bull Sabor (outras variações)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 14,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Refrigerantes -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🥤 REFRIGERANTES</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Coca-Cola 2L</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 15,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Coca-Cola lata (normal ou zero)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Fanta 2L</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 14,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Fanta lata (uva ou laranja)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Guaraná (normal ou zero)</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 5,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Dolly</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 8,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sucos Naturais -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🧃 SUCOS NATURAIS</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Laranja</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 14,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Maracujá</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Uva</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 12,00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item" data-category="sem-alcool">
+                        <div class="item-content">
+                            <h3 class="item-name">Limão</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 8,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Sinuca Section 
+    <section id="sinuca" class="menu-section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="ornament-top">✦</div>
+                <h2 class="section-title">Sinuca</h2>
+                <div class="ornament-divider">
+                    <span class="line"></span>
+                    <span class="diamond">◆</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            <!-- Sinuca -->
+            <div class="menu-category">
+                <h3 class="category-subtitle">🎱 SINUCA</h3>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="sinuca">
+                        <div class="item-content">
+                            <h3 class="item-name">Ficha</h3>
+                            <div class="item-price-line">
+                                <span class="dots"></span>
+                                <span class="item-price">R$ 2,50</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     Thank You Section 
+    <section id="obrigado" class="thank-you-section">
+        <div class="thank-you-content">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-XHaExE7dSH0cvqhzTxu5H439zT23Us.png" alt="Adega do Chefe" class="thank-you-logo">
+            <h2 class="thank-you-title">Agradecemos pela sua visita!</h2>
+            <div class="ornament-divider">
+                <span class="line"></span>
+                <span class="diamond">◆</span>
+                <span class="line"></span>
+            </div>
+            <p class="thank-you-text">
+                A Adega do Chefe – Bar & Tabacaria é o ponto de encontro dos bons momentos.<br>
+                Volte sempre!
+            </p>
+            
+            <div class="social-links">
+                <a href="https://www.instagram.com/bordado.bar/" target="_blank" class="social-link instagram-link" aria-label="Instagram" onclick="openInstagram()">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                    <span>@bordado.bar</span>
+                </a>
+                <a href="https://wa.me/5511999999999" target="_blank" class="social-link whatsapp-link" aria-label="WhatsApp">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    <span>(11) 99999-9999</span>
+                </a>
+            </div>
+
+            <p class="hashtag">#AdegaDoChefe</p>
+        </div>
+    </section>
+
+     Back to Top Button 
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
