@@ -1993,14 +1993,15 @@
   }
   
   .menu-item:has(img[src*="adega"]) .item-image-placeholder {
-    width: 100%;
+    width: 80%;
     aspect-ratio: 1;
     height: auto;
+    margin: 0 auto;
     border-radius: 20px;
     overflow: hidden;
-    border: 3px solid rgba(212, 175, 55, 0.3);
+    border: 3px solid var(--color-gold);
     transition: var(--transition-smooth);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
   }
   
   .menu-item:has(img[src*="adega"]) .item-image-placeholder img {
@@ -2016,8 +2017,8 @@
   }
   
   .menu-item:has(img[src*="adega"]):hover .item-image-placeholder {
-    border-color: var(--color-gold);
-    box-shadow: 0 15px 40px rgba(212, 175, 55, 0.3);
+    border-color: var(--color-gold-light);
+    box-shadow: 0 15px 40px rgba(212, 175, 55, 0.6);
     transform: translateY(-5px);
   }
   
